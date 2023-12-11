@@ -15,8 +15,8 @@ class DosenController extends Controller
 
     public function biodata(){
     $nama = "Aryatama";
-    $alamat = "Pamekasan";
-    $umur = 20 ;
+    $alamat = "Surabaya";
+    $umur = 21 ;
     return view('biodata',['nama' => $nama, 'alamat' => $alamat, 'umur' => $umur]);
     }
 
